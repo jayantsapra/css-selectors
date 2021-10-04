@@ -1,0 +1,81 @@
+h1{
+	text-align:center;
+}
+h4{
+	text-align:center;
+}
+
+img {
+    border-radius: 10%;
+    height:100px;
+    float :right;
+    margin: 10px 150px 350px 100px;
+  }
+  
+
+div{
+    background: purple;
+    color: white;
+}
+#quote{
+    font-family: "verdana" , "gill sans";
+    color: rgb(84, 239, 245);
+}
+.movie {
+    color: blue;
+    background: gold;
+}
+span#author {
+    text-transform: uppercase;
+}
+#skills ol li{
+    color: red;
+}
+#skills ul li{
+    color: blue;
+}
+h3 + p{
+background: black;
+color: white;
+}
+p[class] {
+    background: gray;
+}
+p[id] {
+    background: gray;
+}
+.shows {
+    color: yellow;
+    }
+	
+	
+ol.a {
+  list-style-type: upper-roman;
+}
+.button{
+    position:absolute;
+    top:62%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.btn{
+    border:1px solid rgb(197, 11, 11);
+    padding:10px 30px;
+    color:#000;
+    text-decoration:none;
+    border-radius: 50px;
+    transition:0.6s ease;
+}
+.btn:hover{
+    background-color:rgb(13, 198, 204);
+    color:#fff;
+}
+.btn-explore:hover{
+    background-color:rgb(121, 245, 38);
+    color:#fff;
+}
+.btn-explore{
+    background-color: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+}
